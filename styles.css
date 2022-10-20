@@ -1,0 +1,50 @@
+button {
+    background-color: aquamarine;
+    border: 6px solid #0ff166;
+    border-radius: 10px;
+  }
+  
+  .game-board {
+    width: 600px;
+    height: 600px;
+    margin: 0 auto;
+    background-color: black;
+    color: green;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-align: center;
+    border: 6px solid aquamarine;
+    border-radius: 10px;
+    display: grid;
+    grid-template-rows: 1fr 1fr 1fr;
+    grid-template-columns: 1fr;
+  }
+  
+  .grid-row {
+    border: 6px solid #739dc7;
+    border-radius: 6px;
+    font-family: Helvetica;
+    font-weight: bold;
+    font-size: 4em;
+    display: grid;
+    grid-template-rows: 1fr;
+    grid-template-columns: 1fr 1fr 1fr;
+    background-color: black;
+  }
+  
+  .block {
+    background-color: black;
+    border: 6px solid green;
+    border-radius: 6px;
+    font-family: Helvetica;
+    font-weight: bold;
+    font-size: 20em;
+  }
+  
+  .x {
+    color: red;
+  }
+  
+  .y {
+    color: black;
+  }
+  
